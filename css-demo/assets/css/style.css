@@ -1,0 +1,80 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+/* ---------------Global Styles----------------- */
+
+body {
+  margin:0;
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+header.primary{
+background-color:#3b638b;
+text-align:center;
+color:#ffffff;
+text-shadow: 2px 2px #000000;
+/* Long Form* */  
+padding-top:40px;
+padding-right:40px;
+padding-bottom:20px;
+padding-left:40px;
+/* T,R,B,L */
+padding:40px 40px 20px 40px;  
+/* Top/Bottom  Right/Left */
+padding: 20px 40px;
+}
+
+header.primary h1{
+  font-size: 3.2rem;
+  margin: 20px 0;
+}
+
+header.primary h1 a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header.primary h2{
+  font-size: 2rem;
+  margin: 20px auto 40px;
+}
+
+header.primary nav{
+  width: 80vw;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+header.primary nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+header.primary nav ul li{
+  list-style-type: none;
+}
+
+header.primary nav a:link, header.primary nav a:visited{
+  color:#fff;
+  text-decoration: none;
+  background-color:#0000000;
+  background-color: rgba(0,0,0,0.4);
+  padding: 8px 16px;
+  border-radius: 20px 10px;
+}
+
+header.primary nav a:hover, header.primary nav a:active{
+  background-color:rgba(0,0,0,0.8);
+}
+
