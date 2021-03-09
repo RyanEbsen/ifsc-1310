@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+header.primary {
+    background-color:#BFBAAA;
+    padding: 20px 40px;
+}
+
+header.primary h1{
+  font-size: 3.2rem;
+  margin: 20px 0;
+  color:black;
+}
+
+body {
+    font-family: 'Akaya Telivigala', cursive;
+    text-align:center;
+    margin:0;
+    background-color:#27708C;
+
+}
+
+
+body ul {
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+body ul li {
+    margin-bottom: 20px;
+}
+
+body ul li a:link, body ul li a:visited{
+  color:#fff;
+  text-decoration: none;
+  background-color:#5D9EA6;
+  padding: 8px 16px;
+  border-radius: 10px 10px;
+}
+
+body ul li a:hover, body ul li a:active{
+  background-color:#307B8C;
+}
