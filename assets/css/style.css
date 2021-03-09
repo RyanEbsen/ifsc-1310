@@ -37,7 +37,7 @@ body ul li {
 }
 
 body ul li a:link, body ul li a:visited{
-  color:#fff;
+  color:#E4E6F2;
   text-decoration: none;
   background-color:#5D9EA6;
   padding: 8px 16px;
@@ -45,5 +45,5 @@ body ul li a:link, body ul li a:visited{
 }
 
 body ul li a:hover, body ul li a:active{
-  background-color:#307B8C;
+  background-color:#0C384F;
 }
