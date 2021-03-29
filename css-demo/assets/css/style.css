@@ -20,7 +20,7 @@ img{
 .container{
   width:70vw;
   margin: 40px auto;
-}
+} 
 
 .img-right{
   float:right;
@@ -42,10 +42,11 @@ body {
   margin:0;
   font-family: 'Lato', Arial, sans-serif;
   line-height:1.5;
+  background-color: #F2F2F2;
 }
 
 header.primary{
-background-color:#3b638b;
+background-color: #117DBF;
 text-align:center;
 color:#ffffff;
 text-shadow: 2px 2px #000000;
@@ -99,7 +100,7 @@ text-decoration:none;
 background-color:#000;
 background-color:rgba(0,0,0,.4);
 padding:8px 16px;
-border-radius: 20px;
+border-radius: 10px 10px;
 transition:.5s;
 }
 
@@ -107,15 +108,13 @@ header.primary nav a:hover, header.primary nav a:active{
 background-color:rgba(0,0,0,.8);
 }
 
-
 #intro{
-  border-bottom: 1px dotted #c0c0c0;
   padding-bottom:1.5rem;
 }
 
 
 #intro h2{
-  color:#3b638b;
+  color: #117DBF;
 }
 
 #intro p{
@@ -123,17 +122,24 @@ background-color:rgba(0,0,0,.8);
 }
 
 #content{
+  width: 100vw;
   display:flex;
   flex-direction:row;
   justify-content:space-between;
   /* Shorthand */
   flex-flow: row space-between;
-  border-bottom: 1px dotted #c0c0c0;
-  padding-bottom:2.6rem;
+  
+  padding-bottom: 2.6rem;
+  padding-top: 2.6rem;
+  padding-right: 15vw;
+  padding-left: 15vw;
+  
+  background-color: #A3BFD9;
 }
 
 #content article.post{
   width:30%;
+  background-color:#F2F2F2;
   box-shadow:0 4px 8px rgba(0,0,0,.4);
   padding:.7em;
   border-radius:10px;
@@ -142,7 +148,7 @@ background-color:rgba(0,0,0,.8);
 }
 
 #content article.post:hover{
-   box-shadow:0 8px 16px rgba(0,0,0,.4);
+   box-shadow:0 8px 16px rgba(0,0,0,.6);
 }
 
 #content .post figure{
@@ -152,7 +158,7 @@ background-color:rgba(0,0,0,.8);
 #content article time, #content article figcaption, #content article footer{
   font-size:.8em;
   text-transform:uppercase;
-  color:#c0c0c0;
+  color:#117DBF;
 }
 
 #content article img{
@@ -160,7 +166,7 @@ background-color:rgba(0,0,0,.8);
 }
 
 #content article a:link, #content article a:visited{
-  color:#3b638b;
+  color: #117DBF;
 }
 
 #content article a:hover,#content article a:active{
@@ -269,7 +275,7 @@ table caption{
 }
 
 #additional-elements ul li ul{
-  color:red;
+  color: #A3BFD9;
 }
 
 #additional-elements dl{
@@ -285,6 +291,10 @@ table caption{
   margin:0;
 }
 
+#additional-elements h4 {
+  color: #117DBF;
+}
+
 /* Adjacent Sibling Combinator */
 
 dd + dt {
@@ -292,10 +302,9 @@ dd + dt {
 }
 
 blockquote{
-  background:rgba(0,0,0,.15);
+  background: #337AA6;
   padding: 40px 60px;
-  border:5px double #c0c0c0;
-  border-radius:16px;
+  border:5px #A3BFD9;
   font-size:1.2em;
 }
 
