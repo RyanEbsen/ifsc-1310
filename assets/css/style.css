@@ -46,4 +46,5 @@ body ul li a:link, body ul li a:visited{
 
 body ul li a:hover, body ul li a:active{
   background-color:#0C384F;
+  transition:.5s;
 }
