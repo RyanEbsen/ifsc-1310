@@ -1,0 +1,152 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ---------------Responsive Images----------------- */
+img{
+  max-width:100%;
+  height:auto;
+}
+
+/* ---------------Utility Classes----------------- */
+
+.container{
+  width:70vw;
+  margin: 40px auto;
+} 
+
+.img-right{
+  float:right;
+  margin:10px 0 10px 20px;
+  border:1px solid #c0c0c0;
+  padding:5px;
+}
+
+.img-left{
+  float:left;
+  margin:10px 20px 10px 0;
+  border:1px solid #c0c0c0;
+  padding:5px;
+}
+
+.img-center {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+
+/* ---------------Global Styles----------------- */
+
+body {
+  margin:0;
+  font-family: 'Lato', Arial, sans-serif;
+  line-height:1.5;
+  background-color: #F2F2F2;
+}
+
+header.primary{
+background-color: black;
+text-align:center;
+color:#ffffff;
+padding-top:40px;
+padding-right:40px;
+padding-bottom:20px;
+padding-left:40px;
+padding:40px 40px 20px 40px;  
+padding: 20px 40px;
+}
+
+header.primary h1{
+  font-size:3.2rem; 
+  margin: 20px 0;
+}
+
+header.primary h2{
+  font-size:2rem;
+  margin: 20px auto 40px;
+}
+
+header.primary nav{
+  width:100vw;
+}
+
+header.primary nav ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+}
+
+header.primary nav ul li{
+  list-style-type:none;
+  padding-right:20px;
+}
+
+header.primary nav li a:link, header.primary nav a:visited{
+color:#fff;  
+text-decoration:none;
+}
+
+section.container p {
+  margin: 20px auto;
+  padding: 5px;
+
+}
+
+section.container h2 {
+  border-top:1px dotted #c0c0c0;
+  padding-top: 30px;
+}
+
+section.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+section #articles h2, #content h2 {
+  flex: 0 0 100%;
+  text-align: center;
+  font-size: 2em;
+}
+
+#articles article.post {
+  width: 30%;
+  padding: 10px;
+  font-size: 0.8rem;
+  border-radius: 10px;
+}
+
+#articles article.post h2 {
+  font-size: 1.5em;
+  text-shadow: none;
+}
+
+#articles .post img {
+  border-radius: 10px;
+}
+
+#articles ul {
+  padding: 0 20px;
+}
+
+#articles li {
+  margin-bottom: 20px;
+}
+
+footer {
+  width: 100vw;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
