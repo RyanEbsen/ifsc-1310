@@ -23,7 +23,6 @@ body {
     text-align:center;
     margin:0;
     background-color:#27708C;
-
 }
 
 
@@ -47,4 +46,10 @@ body ul li a:link, body ul li a:visited{
 body ul li a:hover, body ul li a:active{
   background-color:#0C384F;
   transition:.5s;
+}
+
+body ul li ul{
+  padding-top: 20px;
+  list-style-position: inside;
+  list-style-type: lower-roman;
 }

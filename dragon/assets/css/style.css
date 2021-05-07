@@ -25,6 +25,7 @@ img{
   margin:10px 0 10px 20px;
   border:1px solid #c0c0c0;
   padding:5px;
+  display: inline;
 }
 
 .img-left{
@@ -48,6 +49,7 @@ body {
   font-family: 'Lato', Arial, sans-serif;
   line-height:1.5;
   background-color: #F2F2F2;
+  
 }
 
 header.primary{
@@ -110,7 +112,7 @@ section.container {
   flex-wrap: wrap;
 }
 
-section #articles h2, #content h2 {
+section h2 {
   flex: 0 0 100%;
   text-align: center;
   font-size: 2em;
