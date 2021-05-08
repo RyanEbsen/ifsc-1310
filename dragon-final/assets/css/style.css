@@ -149,7 +149,16 @@ section.container table {
   padding: 20px;
 }
 
+section.container dt {
+  clear:both;
+  border-left: solid #3b638b;
+  padding-left: 5px;
+}
 
+section.container dd {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
 
 footer {
   width: 100vw;
@@ -160,4 +169,8 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   text-transform: uppercase;
+}
+
+footer a:link {
+  color: white;
 }
