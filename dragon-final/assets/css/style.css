@@ -160,6 +160,10 @@ section.container dd {
   padding-bottom: 20px;
 }
 
+section.container th {
+  padding-left: 10px;
+}
+
 footer {
   width: 100vw;
   margin: 0px auto;
